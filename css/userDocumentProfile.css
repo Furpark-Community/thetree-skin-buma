@@ -1,0 +1,38 @@
+.theseed-dark-mode .user-profile-table {
+  background:#14161a;
+  border-color: black;
+}
+
+.user-profile-table {
+  float: right;
+  margin: 0 0 1rem 1rem;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  top: 30px;
+  margin-bottom: 3rem;
+}
+
+.user-profile-table td {
+  padding: 4px 8px;
+  vertical-align: middle;
+}
+
+.avatar-cell {
+  padding: 0;
+}
+
+img.avatar {
+  height: 250px;
+  display: block;
+  margin: auto;
+}
+
+.theseed-dark-mode .user-profile-table tr:nth-child(odd) {
+  background: #000;
+}
+
+.user-profile-table tr:nth-child(odd) {
+  background: #f5f5f5;
+}
